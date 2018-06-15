@@ -1,0 +1,9 @@
+*.pyc
+*.out
+*.err
+*.log
+env/
+*.DS_Store
+.idea/
+media/
+db.sqlite3
