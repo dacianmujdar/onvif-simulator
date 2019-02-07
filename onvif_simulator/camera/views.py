@@ -26,7 +26,7 @@ def camera_view(request, pk):
     try:
         # get image
         image_data = open("onvif_simulator/static/parkings/{}/{}.jpg".format(pk, picture_index), "rb").read()
-        return HttpResponse(image_data, content_type="image/png")
+        return HttpResponse(image_data, content_type="image/jpg")
     except:
         raise Http404
 
